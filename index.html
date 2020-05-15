@@ -4,21 +4,24 @@
     <meta charset="UTF-8">
     <title>Fork Me! FCC: Test Suite Template</title>
     <link rel="stylesheet" href="css/style.css">
+
+
+
   </head>
 
   <body>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 <div class="maid-body">
 <nav id="navbar">
-  <header>JAVASCRİPT DOCUMENT</header>
-<a href="#About" class="nav-link">About</a>
-<a href="#Entry" class="nav-link">Entry</a>
-<a href="#JS" class="nav-link">JS</a>
-<a href="#Variables" class="nav-link">Vari̇ables</a>
-<a href="#Funtions" class="nav-link">Functions</a>
+  <header id="headertext">JAVASCRİPT DOCUMENT</header> <br>
+<h2><a href="#introduction" class="nav-link">Introduction</a></h2>
+<h2><a href="#declaration" class="nav-link">Declaration</a></h2>
+<h2><a href="#javascript" class="nav-link">Javascript</a></h2>
+<h2><a href="#variables" class="nav-link">Vari̇ables</a></h2>
+<h2><a href="#functions" class="nav-link">Functions</a></h2>
 </nav>
 <main id="main-doc">
-<section class="main-section" id="Introduction">
+<section class="main-section" id="introduction">
   <header>Introduction</header>
 <p>JavaScript contains a standard library of objects, such as Array, Date, and Math, and a core set of language elements such as operators, control structures, and statements</p>
 <p>JavaScript can be extended for a variety of purposes by supplementing it with additional objects; for example:</p>
@@ -37,44 +40,47 @@
 <p>Objects and functions are the other fundamental elements in the language.</p>
 
 </section>
-<section class="main-section" id="Javascript">
-  <header>Javascript</header>
-  
-  <p>Use the if statement to execute a statement if a logical condition is true. Use the optional else clause to execute a statement if the condition is false. An if statement looks as follows:</p>
-  
+
+<section class="main-section" id="declaration">
+  <header>Declaration</header>
+
+  <p>See Boolean for an explanation of what evaluates to true and false. If condition evaluates to true, statement_1 is executed; otherwise, statement_2 is executed. statement_1 and statement_2 can be any statement, including further nested if statements.</p>
+
   <p>You may also compound the statements using else if to have multiple conditions tested in sequence, as follows:</p>
-  
+
+  <p>To execute multiple statements, group them within a block statement ({ ... }) . In general, it's good practice to always use block statements, especially when nesting if statements:</p>
+
+  <code>if (condition_1) { statement_1; } else if (condition_2) { statement_2;
+  } else if (condition_n) { statement_n; } else { statement_last; }</code>
+</section>
+
+<section class="main-section" id="javascript">
+  <header>Javascript</header>
+
+  <p>Use the if statement to execute a statement if a logical condition is true. Use the optional else clause to execute a statement if the condition is false. An if statement looks as follows:</p>
+
+  <p>You may also compound the statements using else if to have multiple conditions tested in sequence, as follows:</p>
+
   <p>If you need to use an assignment in a conditional expression, a common practice is to put additional parentheses around the assignment. For example:</p>
 
   <code>if ((x = y)) { /* statements here */ }</code>
 
 </section>
 
-<section class="main-section" id="Variables">
+<section class="main-section" id="variables">
   <header>Variables</header>
   <p>Primitive parameters (such as a number) are passed to functions by value; the value is passed to the function, but if the function changes the value of the parameter, this change is not reflected globally or in the calling function.</p>
-  
+
   <p>After completing the third pass, the condition n< 3 is no longer true, so the loop terminates.</p>
-  
+
   <p>A list of arguments to the function, enclosed in parentheses and separated by commas.</p>
 
   <code>function square(number) { return number * number; }</code>
 
 </section>
 
-<section class="main-section" id="Declaration">
-  <header>Declaration</header>
 
-  <p>See Boolean for an explanation of what evaluates to true and false. If condition evaluates to true, statement_1 is executed; otherwise, statement_2 is executed. statement_1 and statement_2 can be any statement, including further nested if statements.</p>
-  
-  <p>You may also compound the statements using else if to have multiple conditions tested in sequence, as follows:</p>
-  
-  <p>To execute multiple statements, group them within a block statement ({ ... }) . In general, it's good practice to always use block statements, especially when nesting if statements:</p>
-
-  <code>if (condition_1) { statement_1; } else if (condition_2) { statement_2;
-  } else if (condition_n) { statement_n; } else { statement_last; }</code>
-</section>
-<section id="Functions" class="main-section">
+<section id="functions" class="main-section">
 <header>Functions</header>
 
 <p> JavaScript identifier must start with a letter, underscore (_), or dollar sign ($); subsequent characters can also be digits (0-9). </p>
@@ -95,7 +101,7 @@
 </div>
 
 
-  
+
 
     <script  src="js/index.js"></script>
   </body>

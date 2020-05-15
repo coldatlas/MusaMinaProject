@@ -1,0 +1,75 @@
+#navbar {
+  height: 100%;
+  width:150px;
+  position: fixed;
+  z-index:1;
+  top:0;
+  left: 0;
+  background-color: : rgba(255, 0, 0, 0.6);
+  overflow-x: hidden;
+  padding-top: 30px;
+  border-right: solid;
+
+}
+
+body {
+
+  margin-left: 160px;
+  line-height: 1.6;
+  font-family: sans-serif;
+  min-width: 250px;
+   background-image: url(https://us.123rf.com/450wm/patterndesign/patterndesign1801/patterndesign180100447/94042959-stock-vector-soft-blending-abstract-gradient-background-vector-blur-smooth-background-.jpg?ver=6);
+ background-size: cover;
+}
+
+
+header {
+  color: black;
+  text-align: center;
+  margin: 10px;
+  font-size: 1.6em;
+  font-family: cursive;
+}
+
+#headertext {
+  font-size: 1.2em;
+  font-style: italic;
+  font-family: serif;
+}
+
+
+a:link, a:visited {
+  background-color: #f44336;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: red;}
+
+
+.nav-link {
+  font-size: 0.8em;
+}
+
+
+code {
+  display: block;
+  text-align: left;
+  position: relative;
+line-height: 2;
+padding: 16px;
+margin: 10px;
+font-size: 1.3em;
+font-style: italic;
+width: 60%;
+margin-left: 15px;
+margin-left: 20px;
+padding-left: 10px;
+padding-right: 30px;
+background-color: #E0E0E0;
+border-radius: 20px;
+}
